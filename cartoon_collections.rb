@@ -5,6 +5,8 @@ def square_array(array)
   square_array.each do |square|
     square = square * square
     squared_array << square
+  end
+  squared_array
 end
 
 def summon_captain_planet(planeteer_calls)
