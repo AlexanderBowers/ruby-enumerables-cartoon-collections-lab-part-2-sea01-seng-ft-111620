@@ -30,5 +30,7 @@ def find_valid_calls(planeteer_calls)
   planeteer_calls.find do |element|
     count = 0
     element == "Earth!" || "Wind!" || "Fire!" || "Water!" || "Heart!"
+
+  else return nil
   end
 end
