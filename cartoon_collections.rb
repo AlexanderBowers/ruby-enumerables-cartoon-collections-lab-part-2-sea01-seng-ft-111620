@@ -30,6 +30,7 @@ def find_valid_calls(planeteer_calls)
   planeteer_calls.find do |call, element|
     if call.any? == valid_calls[element]
       return call
+    end
   end
 
 end
